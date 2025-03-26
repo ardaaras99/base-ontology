@@ -1,8 +1,7 @@
 from typing import Any
 
+from node import BaseNode
 from pydantic import BaseModel, Field
-
-from base_ontology.node import BaseNode
 
 
 class BaseRelation(BaseModel):
